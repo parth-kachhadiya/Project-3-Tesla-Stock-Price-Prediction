@@ -125,9 +125,9 @@ Scaler    : MinMaxScaler (shared across all models)
 
 | Model | Horizon | R² | MAE | RMSE | MAPE% |
 |-------|---------|-----|-----|------|-------|
-| Model A | 1 Day | — | — | — | — |
-| Model B | 5 Days | — | — | — | — |
-| Model C | 21 Days | — | — | — | — |
+| Model A | 1 Day | 0.97 |  7.70 | 13.34 | 2.44 |
+| Model B | 5 Days | 0.89 | 15.03 | 20.92 | 4.86 |
+| Model C | 21 Days | 0.84 | 15.65 | 19.65 | 4.40 |
 
 > ℹ️ Fill in the actual values from your `metadata.json` after training. The dashboard's **Model Details** tab renders these live.
 
