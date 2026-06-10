@@ -1,0 +1,36 @@
+{
+    "window_size": 30,
+    "ticker": "TSLA",
+    "models": {
+        "model_a": {
+            "horizon": 1,
+            "max_days": 1,
+            "results": {
+                "R2": 0.9674,
+                "MAE": 7.7066,
+                "RMSE": 13.3443,
+                "MAPE": 2.44
+            }
+        },
+        "model_b": {
+            "horizon": 5,
+            "max_days": 5,
+            "results": {
+                "R2": 0.8981,
+                "MAE": 15.0366,
+                "RMSE": 20.9205,
+                "MAPE": 4.86
+            }
+        },
+        "model_c": {
+            "horizon": 21,
+            "max_days": 21,
+            "results": {
+                "R2": 0.8457,
+                "MAE": 15.6583,
+                "RMSE": 19.6584,
+                "MAPE": 5.4
+            }
+        }
+    }
+}
