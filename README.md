@@ -151,6 +151,27 @@ Scaler    : MinMaxScaler (shared across all models)
 
 ---
 
+## 🐳 Docker
+
+The image is available on Docker Hub — no local setup needed.
+
+**Pull the image:**
+```bash
+docker pull parth60/tesla-stock-price-prediction
+```
+
+**Run the container:**
+```bash
+docker run -p 8501:8501 parth60/tesla-stock-price-prediction
+```
+
+Then open `http://localhost:8501` in your browser.
+
+> 🐋 Docker Hub: [parth60/tesla-stock-price-prediction](https://hub.docker.com/r/parth60/tesla-stock-price-prediction)
+
+---
+
+
 ## Installation & Setup
 
 ### 1. Clone the repository
