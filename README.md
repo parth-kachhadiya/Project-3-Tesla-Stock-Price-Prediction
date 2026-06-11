@@ -40,8 +40,8 @@ Three separate LSTM models are trained for different prediction horizons — nex
 │   ├── shared_scaler.pkl         # MinMaxScaler fitted on training data
 │   └── metadata.json             # Model configs & performance metrics
 ├── notebooks/
-│   ├── Tesla-Stock-Price-Prediction.ipynb   # Model training notebook
-│   └── Univariate.ipynb                     # EDA & feature engineering
+│   ├── Tesla-Stock-Price-Prediction.ipynb   # Boosting models
+│   └── Final_Model_Design.ipynb             # Deep learning models
 ├── app.py                        # Streamlit dashboard
 └── requirements.txt              # Python dependencies
 ```
